@@ -1,0 +1,43 @@
+body {
+    background-color: whitesmoke;
+}
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    /*background-color: rgba(0, 0, 0, 0.8);*/
+    background: linear-gradient(rgb(0,66,54), rgb(9,34,54)) !important;
+    color: rgba(255, 255, 255, 0.6);
+}
+.btn-primary {  /*akordion*/
+    /*background-color: #4285f4 !important;*/
+    background: linear-gradient(rgb(9,34,54), rgb(0,66,54)) !important;
+    color: #fff;
+}
+.btn-light-blue { /*read more*/
+    /*background-color: #82b1ff !important;*/
+    background: linear-gradient(rgb(0,66,54), rgb(9,34,54)) !important;
+    color: #fff;
+}
+.btn-outline-mdb-color { /*more*/
+    /*border: 2px solid #59698d !important;
+    color: #59698d !important;*/
+    border: 2px solid rgb(9,34,54) !important;
+    color: rgb(9,34,54) !important;
+    background-color: transparent !important;
+}
+
+.btn-mdb-color {  /* submit */
+    /*background-color: #59698d !important;*/
+    background: linear-gradient(rgb(9,34,54), rgb(0,66,54)) !important;
+    color: #fff;
+}
+
+/* pozadina navigacije */
+.green {
+   /* background-color: #4caf50 !important; */
+    background: linear-gradient(rgb(0,66,54), rgb(9,34,54)) !important;
+}
+
+a.border.nav-link.border-light.rounded.mr-1 {
+    /*color: #3F729B; */
+    color: rgb(9,34,54);
+}

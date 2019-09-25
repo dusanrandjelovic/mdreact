@@ -1,0 +1,19 @@
+#fluidjumb {
+    background: linear-gradient(rgba(0,66,54,0.4), rgba(9,34,54,0.4)), url(../Slike/zenasesir.png);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+#red1onama {
+    margin: 0 0 4% 5%;
+}
+#red1slika {
+    background-image: url(../Slike/zenasesir.png);
+    background-size: cover;
+    width: 50%;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -32px;
+}

@@ -1,0 +1,22 @@
+/*
+
+iz jumbotron
+style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)` }}
+src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+*/
+body {
+    background-color: gray;
+}
+#poza {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../Slike/poz.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 3px 3px 2px 2px rgb(9,34,54);
+}
+.btn-outline-white {
+    border: 2px solid #fff !important;
+    color: #fff !important;
+    background-color: transparent !important;
+}
