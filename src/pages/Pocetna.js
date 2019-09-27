@@ -170,9 +170,6 @@ class Pocetna extends React.Component {
       </MDBContainer>
 
 
-      <MDBContainer>
-      <MDBNavLink onClick={this.scrollToTop} ><MenuLink to="/galerija" title="Galerija" /></MDBNavLink>
-      </MDBContainer>
 
         <MDBContainer>
           <MDBRow>
