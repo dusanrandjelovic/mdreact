@@ -121,7 +121,7 @@ class Pocetna extends React.Component {
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>
-              <a href="https://onlineprodavnica1.000webhostapp.com" rel="noopener noreferrer" target="_blank"  href="https://onlineprodavnica1.000webhostapp.com"
+              <a href="https://onlineprodavnica1.000webhostapp.com" rel="noopener noreferrer" target="_blank"
               ><MDBBtn color="light-blue" size="md">
                 read more
               </MDBBtn></a>
