@@ -56,7 +56,7 @@ class HomePage extends React.Component {
                   <MDBRow className="d-flex flex-row justify-content-center row">
                     <a
                       className="border nav-link border-light rounded mr-1"
-                      href="https://dusanrandjelovic.000webhostapp.com"
+                      href="https://dusanrandjelovicportfolio.000webhostapp.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
