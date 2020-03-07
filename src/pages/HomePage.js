@@ -15,19 +15,22 @@ import {
   MDBNavLink
 } from "mdbreact";
 import "./HomePage.css";
-import sl from '../Slike/zenasesir.png';
+import shop from '../Slike/shop.jpg';
 import haha from '../Slike/hahatrans.png';
+import api from '../Slike/api.jpg';
 import burito from '../Slike/burito.jpg';
 import bg1 from '../Slike/bg1.jpg';
 import bg4 from '../Slike/bg4.jpg';
-import salon from '../Slike/salon.jpeg';
+import hotel from '../Slike/hotel.jpg';
 import nature from '../Slike/nature.jpg';
+import vet from '../Slike/vet.jpg';
+import salon from '../Slike/salon.jpg';
 
 class HomePage extends React.Component {
   scrollToTop = () => window.scrollTo(0, 0);
   render() {
-    return (
-      <>
+    return (    
+    <> 
         <MDBEdgeHeader color="darken-3" className="sectionPage" />
         <div className="mt-3 mb-5">
           <MDBFreeBird>
@@ -56,7 +59,7 @@ class HomePage extends React.Component {
                   <MDBRow className="d-flex flex-row justify-content-center row">
                     <a
                       className="border nav-link border-light rounded mr-1"
-                      href="https://dusanrandjelovicportfolio.000webhostapp.com"
+                      href="https://dusanrandjelovic.000webhostapp.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -95,7 +98,7 @@ class HomePage extends React.Component {
                         <MDBCardImage
                           cascade
                           className="img-fluid"
-                          src="https://mdbootstrap.com/wp-content/uploads/2016/08/mdb.jpg"
+                          src={hotel}
                         />
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
@@ -110,15 +113,17 @@ class HomePage extends React.Component {
                             Animations, colours, shadows, skins and many more!
                             Get to know all our css styles in one place.
                           </MDBCardText>
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/css"
+                              href="https://hotelbrand.000webhostapp.com"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
                               onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>
@@ -140,7 +145,9 @@ class HomePage extends React.Component {
                             Ready-to-use components that you can use in your
                             applications. Both basic and extended versions!
                           </MDBCardText>
-                          <MDBNavLink 
+                          <div>
+    {/*
+                        <MDBNavLink 
                               tag="button"
                               to="/components"
                               color="mdb-color"
@@ -148,7 +155,23 @@ class HomePage extends React.Component {
                               onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </MDBNavLink>  
+                          
+      */}
+    </div>
+
+                         <a 
+                              tag="button"
+                              href="https://berbernica.000webhostapp.com"
+                              rel="noopener noreferrer"
+                              target="_blank"
+                              color="mdb-color"
+                              className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
+                              onClick={this.scrollToTop}
+                            >
+                              More
+                          </a>
+
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>
@@ -172,15 +195,17 @@ class HomePage extends React.Component {
                             version.
                           </MDBCardText>
 
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/advanced"
+                              href="https://authlara.000webhostapp.com"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
                               onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>
@@ -207,15 +232,17 @@ class HomePage extends React.Component {
                             components.
                           </MDBCardText>
 
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/navigation"
+                              href="https://dusanrandjelovic.github.io/galerija/"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
                               onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>
@@ -238,15 +265,17 @@ class HomePage extends React.Component {
                             one place is ready to use!
                           </MDBCardText>
 
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/forms"
+                              href="https://womensalon.000webhostapp.com"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
                               onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>
@@ -257,7 +286,7 @@ class HomePage extends React.Component {
                         <MDBCardImage
                           cascade
                           className="img-fluid"
-                          src="https://mdbootstrap.com/wp-content/uploads/2015/08/table-fb.jpg"
+                          src={vet}
                         />
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
@@ -269,15 +298,17 @@ class HomePage extends React.Component {
                             with sorting, searching and export to csv.
                           </MDBCardText>
 
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/tables"
+                              href="https://13decverzija.000webhostapp.com"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
                               onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>
@@ -308,15 +339,17 @@ class HomePage extends React.Component {
                             more.
                           </MDBCardText>
 
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/modals"
+                              href="https://natureparksierra.000webhostapp.com"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
                               onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>
@@ -327,7 +360,7 @@ class HomePage extends React.Component {
                         <MDBCardImage
                           cascade
                           className="img-fluid"
-                          src="https://mdbootstrap.com/img/Marketing/docs/social/main-addons.jpg"
+                          src={shop}
                         />
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
@@ -335,7 +368,7 @@ class HomePage extends React.Component {
                               icon="arrows-alt"
                               className="blue-text pr-2"
                             />
-                            <strong>PHP WEBSITE</strong>
+                            <strong>SHOP</strong>
                           </MDBCardTitle>
                           <MDBCardText>
                             Google Maps, Social Buttons, Pre-built Contact Forms
@@ -343,15 +376,17 @@ class HomePage extends React.Component {
                             components.
                           </MDBCardText>
 
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/addons"
+                              href="https://jedantackasedam.000webhostapp.com"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
                               onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>
@@ -363,7 +398,7 @@ class HomePage extends React.Component {
                         <MDBCardImage
                           cascade
                           className="img-fluid"
-                          src={sl}
+                          src={api}
                         />
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
@@ -372,21 +407,23 @@ class HomePage extends React.Component {
                               brand
                               className="pink-text pr-2"
                             />
-                            <strong>SUPERSITE</strong>
+                            <strong>API</strong>
                           </MDBCardTitle>
                           <MDBCardText>
                             Animations, colours, shadows, skins and many more!
                             Get to know all our css styles in one place.
                           </MDBCardText>
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/css"
+                              href="https://dusanrandjelovic.github.io/apis/"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
                               onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>

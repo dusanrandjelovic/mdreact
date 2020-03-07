@@ -32,7 +32,7 @@ const Kontakt = props => {
               className="text-left mx-auto float-none white z-depth-1 py-2 px-2"
             >
               <MDBCardBody>
-                <MDBCardTitle>Kontakt</MDBCardTitle>
+                <MDBCardTitle>Contact</MDBCardTitle>
                 <p className="pb-4">Example of Material Design Form</p>
                 <form>
                   <MDBInput label="Your name" group type="text" icon="user" />
@@ -54,7 +54,7 @@ const Kontakt = props => {
                 </form>
                 <div className="my-2">
                   <p style={{ fontWeight: "300", fontSize: "0.75rem" }}>
-                    Never submit your passwords here
+                    Dusan Randjelovic
                   </p>
                 </div>
               </MDBCardBody>

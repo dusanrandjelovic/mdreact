@@ -26,6 +26,8 @@ import MenuLink from "./../components/menuLink";
 import '../Css/Pocetna.css';
 import haha from '../Slike/hahatrans.png';
 
+// deo u liniji 175 ne sme u produkciju
+
 
 class Pocetna extends React.Component {
   scrollToTop = () => window.scrollTo(0, 0);
@@ -63,7 +65,10 @@ class Pocetna extends React.Component {
                       dignissimos. Odit sed qui, dolorum!
                     </p>
                     <MDBBtn outline color="white" className="mb-5">
-                      <MDBIcon icon="clone" className="mr-2" /> View project
+                      <MDBIcon icon="clone" className="mr-2" /> <a 
+                              href="https://jedantackasedam.000webhostapp.com"
+                              rel="noopener noreferrer"
+                              target="_blank">View project</a>
                     </MDBBtn>
                   </MDBCol>
                 </MDBCol>
@@ -93,12 +98,12 @@ class Pocetna extends React.Component {
             <MDBRow className="d-flex flex-row justify-content-center row">
               <a
                 className="border nav-link border-light rounded mr-1"
-                href="https://onlineprodavnica1.000webhostapp.com"
+                href="https://13decverzija.000webhostapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <MDBIcon icon="graduation-cap" className="mr-2" />
-                <span className="font-weight-bold">PHP website</span>
+                <span className="font-weight-bold">Laravel website</span>
               </a>
             </MDBRow>
           </MDBCardBody>
@@ -106,7 +111,7 @@ class Pocetna extends React.Component {
         
   <MDBContainer>
        
-          <SectionContainer header="Vidi">
+          <SectionContainer header="View">
         <MDBCardGroup deck className="mt-3">
           <MDBCard>
             <MDBCardImage
@@ -117,11 +122,13 @@ class Pocetna extends React.Component {
               overlay="white-slight"
             />
             <MDBCardBody>
-              <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+              <MDBCardTitle tag="h5">WordPress 1</MDBCardTitle>
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>
-              <a href="https://onlineprodavnica1.000webhostapp.com" rel="noopener noreferrer" target="_blank"
+              <a href="https://andragog.000webhostapp.com" 
+              rel="noopener noreferrer"
+              target="_blank"  
               ><MDBBtn color="light-blue" size="md">
                 read more
               </MDBBtn></a>
@@ -137,40 +144,51 @@ class Pocetna extends React.Component {
               overlay="white-slight"
             />
             <MDBCardBody>
-              <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+              <MDBCardTitle tag="h5">WordPress 2</MDBCardTitle>
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>
-              <MDBBtn color="light-blue" size="md">
+              <a href="https://carwash3.000webhostapp.com" 
+              rel="noopener noreferrer"
+              target="_blank"  
+              ><MDBBtn color="light-blue" size="md">
                 read more
-              </MDBBtn>
+              </MDBBtn></a>
             </MDBCardBody>
           </MDBCard>
 
           <MDBCard>
             <MDBCardImage
-              src="https://mdbootstrap.com/wp-content/uploads/2018/02/modal-new.jpg"
+              src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg"
               alt="MDBCard image cap"
               top
               hover
               overlay="white-slight"
             />
             <MDBCardBody>
-              <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+              <MDBCardTitle tag="h5">WordPress 3</MDBCardTitle>
               <MDBCardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </MDBCardText>
-              <MDBBtn color="light-blue" size="md">
+              <a href="https://barbershop4.000webhostapp.com" 
+              rel="noopener noreferrer"
+              target="_blank"  
+              ><MDBBtn color="light-blue" size="md">
                 read more
-              </MDBBtn>
+              </MDBBtn></a>
             </MDBCardBody>
           </MDBCard>
         </MDBCardGroup>
       </SectionContainer>
       </MDBContainer>
 
-
-
+<div>
+  {/*
+      <MDBContainer>
+      <MDBNavLink onClick={this.scrollToTop} ><MenuLink to="/galerija" title="Galerija" /></MDBNavLink>
+      </MDBContainer>
+  */}
+      </div>
         <MDBContainer>
           <MDBRow>
             <MDBCol md="12">
@@ -183,7 +201,7 @@ class Pocetna extends React.Component {
                       onClick={this.toggle("1")}
                       role="tab"
                     >
-                      Websites
+                      Laravel / MySQL
                     </MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
@@ -193,7 +211,7 @@ class Pocetna extends React.Component {
                       onClick={this.toggle("2")}
                       role="tab"
                     >
-                      WordPress
+                      Frontend
                     </MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
@@ -203,35 +221,32 @@ class Pocetna extends React.Component {
                       onClick={this.toggle("3")}
                       role="tab"
                     >
-                      Apps
+                      WordPress
                     </MDBNavLink>
                   </MDBNavItem>
                 </MDBNav>
                 <MDBTabContent activeItem={this.state.activeItem}>
                   <MDBTabPane tabId="1" role="tabpanel">
                     <p className="mt-2">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta
-                      doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur.
-                      Tempora, placeat ratione porro voluptate odit minima.
+                      I do backend with Laravel. I have code for online shop with shopping cart and checkout. I have code
+                      for admin panel, login/registration system, CRUD apps, database filtering and contact forms with 
+                      server side validation.
                     </p>
                   </MDBTabPane>
                   <MDBTabPane tabId="2" role="tabpanel">
                     <p className="mt-2">
-                      Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima. Lorem ipsum
-                      dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
-                      reiciendis molestiae placeat unde eos molestias.
+                      I have wide spectrum of frontend knowledge. I have codes with various designs, galleries,
+                      animations, modern photography, videos all done primary with flex. I use JS, jQuery, React,
+                      Bootstrap, MDBootstrap, jQuery plugins.
                     </p>
                     <p>
-                      Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima. Lorem ipsum
-                      dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
-                      reiciendis molestiae placeat unde eos molestias.
+                      I have modern and futuristic designs. Some of my websites are on first google page.
                     </p>
                   </MDBTabPane>
                   <MDBTabPane tabId="3" role="tabpanel">
                     <p className="mt-2">
-                      Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima. Lorem ipsum
-                      dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
-                      reiciendis molestiae placeat unde eos molestias.
+                      I can create and deploy WordPress websites with numerous plugins (for security, SEO, forms, 
+                      shop, FAQ, chat, translations, multilanguage and more). I use elementor, beaver builder and more. 
                     </p>
                   </MDBTabPane>
                 </MDBTabContent>
@@ -264,15 +279,16 @@ class Pocetna extends React.Component {
                             Animations, colours, shadows, skins and many more!
                             Get to know all our css styles in one place.
                           </MDBCardText>
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/onama"
+                              href="https://berbernica.000webhostapp.com"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
-                              onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>
@@ -288,21 +304,22 @@ class Pocetna extends React.Component {
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
                             <MDBIcon icon="cubes" className="blue-text pr-2" />
-                            <strong>TRAVEL</strong>
+                            <strong>React</strong>
                           </MDBCardTitle>
                           <MDBCardText>
                             Ready-to-use components that you can use in your
                             applications. Both basic and extended versions!
                           </MDBCardText>
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/kontakt"
+                              href="https://stoic-payne-cd40cb.netlify.com/"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
-                              onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>
@@ -318,7 +335,7 @@ class Pocetna extends React.Component {
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
                             <MDBIcon icon="code" className="green-text pr-2" />
-                            <strong>CAR WASH</strong>
+                            <strong>MAKE UP</strong>
                           </MDBCardTitle>
                           <MDBCardText>
                             Advanced components such as charts, carousels,
@@ -328,12 +345,11 @@ class Pocetna extends React.Component {
 
                           <a 
                               tag="button"
-                              href="https://onlineprodavnica1.000webhostapp.com"
-                       rel="noopener noreferrer"
+                              href="https://makeupstudio1.000webhostapp.com"
+                              rel="noopener noreferrer"
                               target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
-                              onClick={this.scrollToTop}
                             >
                               More
                           </a>
@@ -355,23 +371,23 @@ class Pocetna extends React.Component {
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
                             <MDBIcon icon="bars" className="pink-text pr-2" />
-                            <strong>BEAUTY</strong>
+                            <strong>SHOP</strong>
                           </MDBCardTitle>
                           <MDBCardText>
                             Ready-to-use navigation layouts, navbars,
                             breadcrumbs and much more! More about our navigation
                             components.
                           </MDBCardText>
-
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/navigation"
+                              href="https://jedantackasedam.000webhostapp.com"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
-                              onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>
@@ -389,22 +405,22 @@ class Pocetna extends React.Component {
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
                             <MDBIcon icon="table" className="green-text pr-2" />
-                            <strong>SHOP</strong>
+                            <strong>RESTAURANT</strong>
                           </MDBCardTitle>
                           <MDBCardText>
                             Basic and advanced tables. Responsive, datatables,
                             with sorting, searching and export to csv.
                           </MDBCardText>
-
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/tables"
+                              href="https://authlara.000webhostapp.com"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
-                              onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>
@@ -425,7 +441,7 @@ class Pocetna extends React.Component {
                               far
                               className="pink-text pr-2"
                             />
-                            <strong>SHOP 2</strong>
+                            <strong>WP SHOP</strong>
                           </MDBCardTitle>
                           <MDBCardText>
                             Modals used to display advanced messages to the
@@ -433,15 +449,16 @@ class Pocetna extends React.Component {
                             more.
                           </MDBCardText>
 
-                          <MDBNavLink 
+                          <a 
                               tag="button"
-                              to="/modals"
+                              href="https://dusanshop.000webhostapp.com"
+                              rel="noopener noreferrer"
+                              target="_blank"
                               color="mdb-color"
                               className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
-                              onClick={this.scrollToTop}
                             >
                               More
-                          </MDBNavLink>
+                          </a>
                         </MDBCardBody>
                       </MDBCard>
                     </MDBAnimation>

@@ -93,14 +93,15 @@ render(){
 
        <form  onSubmit={this.onSubmit} id="todoform">
          <h2 style={{textAlign: 'center'}}>Another Todo</h2>
+         <p>Enter an item</p>
          <p>Click on the items to check them as finished, then you can delete
            them.
          </p>
-       <input type="text" name="zadatak" placeholder="upisi" 
+       <input type="text" name="zadatak" placeholder="Enter something..." 
        onChange={this.onChange} value={this.state.zadatak}>
 
        </input>
-        <button>Unesi zadatak</button>
+        <button>Show</button>
        </form>
 
        <p>{this.state.zadatak}</p>
@@ -111,7 +112,7 @@ render(){
        ))}
       
       <div>
-        <button onClick={this.obrisiUradjeno}>Obrisi ispunjen zadatak</button>
+        <button onClick={this.obrisiUradjeno}>Delete checked</button>
       </div>
     </div>
   )

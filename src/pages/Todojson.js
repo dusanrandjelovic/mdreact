@@ -1,22 +1,22 @@
 const Todopodaci = [
     {
 broj: 1,
-zadatak: "Nadji poso",
+zadatak: "Backend",
 completed: true
     },
     {
         broj: 2,
-        zadatak: "Nadji poso",
+        zadatak: "Frontend",
         completed: false
     },
     {
         broj: 3,
-        zadatak: "Nadji poso",
+        zadatak: "Laravel",
         completed: false
     },
     {
         broj: 4,
-        zadatak: "Nadji poso",
+        zadatak: "WordPress",
         completed: true
     }
 ]
