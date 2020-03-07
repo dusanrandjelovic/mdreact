@@ -80,7 +80,7 @@ class App extends Component {
                     onClick={this.closeCollapse("mainNavbarCollapse")}
                     to="/pocetna"
                   >
-               <strong>Pocetna</strong>
+               <strong>Sites</strong>
                   </MDBNavLink>
                 </MDBNavItem>
 
@@ -89,7 +89,7 @@ class App extends Component {
                     onClick={this.closeCollapse("mainNavbarCollapse")}
                     to="/onama"
                   >
-               <strong>O nama</strong>
+               <strong>About</strong>
                   </MDBNavLink>
                 </MDBNavItem>
 
@@ -98,7 +98,7 @@ class App extends Component {
                     onClick={this.closeCollapse("mainNavbarCollapse")}
                     to="/galerija"
                   >
-               <strong>Galerija</strong>
+               <strong>Gallery</strong>
                   </MDBNavLink>
                 </MDBNavItem>
 
@@ -118,7 +118,7 @@ class App extends Component {
                     onClick={this.closeCollapse("mainNavbarCollapse")}
                     to="/kontakt"
                   >
-                    <strong>Kontakt</strong>
+                    <strong>Contact</strong>
                   </MDBNavLink>
                 </MDBNavItem>
 
@@ -132,7 +132,8 @@ class App extends Component {
           <MDBFooter color="gray">
             <p className="footer-copyright mb-0 py-3 text-center">
               &copy; {new Date().getFullYear()} Copyright:
-              <a href="https://dusanrandjelovic.000webhostapp.com"> Dusan Randjelovic Portfolio </a>
+              <a href="https://dusanrandjelovicportfolio.000webhostapp.com" rel="noopener noreferrer"
+                              target="_blank"> Dusan Randjelovic Portfolio </a>
              
             </p>
           </MDBFooter>
